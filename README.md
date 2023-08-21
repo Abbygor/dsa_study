@@ -6,8 +6,8 @@ Dentro de la lambda se decidio hacer uso de excepciones personalizadas para prop
 
 | Código      | Descripción |Detalle|
 | ----------- | ----------- | ----------- |
-| [400](./docs/readmes/Readme_errors.md#error-400)   | Bad Request        |Error de cliente|
-| [401](./docs/readmes/Readme_errors.md#error-401)   | Unauthorized        |Error de cliente|
-| [404](./docs/readmes/Readme_errors.md#error-404)      | Not Found       |Error de cliente|
-| [500](./docs/readmes/Readme_errors.md#error-500)   | Internal Server Error|Error de servidor|
-| [503](./docs/readmes/Readme_errors.md#error-503)   | Service Unavailable|Error de servidor|
+| [400](./docs/readmes/Readme_errors.md)   | Bad Request        |Error de cliente|
+| [401](./docs/readmes/Readme_errors.md)   | Unauthorized        |Error de cliente|
+| [404](./docs/readmes/Readme_errors.md)      | Not Found       |Error de cliente|
+| [500](./docs/readmes/Readme_errors.md)   | Internal Server Error|Error de servidor|
+| [503](./docs/readmes/Readme_errors.md)   | Service Unavailable|Error de servidor|
