@@ -15,8 +15,8 @@
 Lista de errores y posibles causas de estós.
 
 ### Error 400
-**Nombre:** Bad Request
-**Descripción:** El servidor no puede o no procesará la solicitud debido a algo que se percibe como un error del cliente.
+**Nombre:** Bad Request  
+**Descripción:** El servidor no puede o no procesará la solicitud debido a algo que se percibe como un error del cliente.  
 **Códigos de Error:**
 | Código      | Descripción | Causa |
 | ----------- | ----------- | ----------- |
@@ -25,8 +25,8 @@ Lista de errores y posibles causas de estós.
 |REQUEST.CLEVERTAP.EVENT.NOT.VALID.DATA.**DATO**|event data **DATO** is required|Dentro del JSON del evento faltó enviar el parametro **DATO**|
 
 ### Error 401
-**Nombre:** Unauthorized
-**Descripción:** El servidor no puede procesar la solicitud debido a que las credenciales enviadas no son validas.
+**Nombre:** Unauthorized  
+**Descripción:** El servidor no puede procesar la solicitud debido a que las credenciales enviadas no son validas.  
 **Códigos de Error:**
 | Código      | Descripción | Causa |
 | ----------- | ----------- | ----------- |
@@ -34,8 +34,8 @@ Lista de errores y posibles causas de estós.
 |HEADER.X-API-KEY.IS.INVALID|header request X-API-KEY is not valid|El token proporcionado en el header es incorrecto|
 
 ### Error 404
-**Nombre:** Not Found
-**Descripción:** El servidor no encuentra el recurso solicitado.
+**Nombre:** Not Found  
+**Descripción:** El servidor no encuentra el recurso solicitado.  
 **Códigos de Error:**
 | Código      | Descripción | Causa |
 | ----------- | ----------- | ----------- |
@@ -43,8 +43,8 @@ Lista de errores y posibles causas de estós.
 |BUILD.JobID.NOT.FOUND|JobID **ID** not found|Indica que no se encontro el **ID** en el endpoint de jobs|
 
 ### Error 500
-**Nombre:** Internal Server Error
-**Descripción:** Se ha producido un error al intentar acceder al servidor, pero no se puede dar más detalles sobre lo que ha ocurrido.
+**Nombre:** Internal Server Error  
+**Descripción:** Se ha producido un error al intentar acceder al servidor, pero no se puede dar más detalles sobre lo que ha ocurrido.  
 **Códigos de Error:**
 | Código      | Descripción | Causa |
 | ----------- | ----------- | ----------- |
@@ -52,8 +52,8 @@ Lista de errores y posibles causas de estós.
 |Any|N/A|Cualquier otro problema ageno a la lambda|
 
 ### Error 503
-**Nombre:** Service Unavailable
-**Descripción:** El servidor no puede alcanzar el recurso solicitado.
+**Nombre:** Service Unavailable  
+**Descripción:** El servidor no puede alcanzar el recurso solicitado.  
 **Códigos de Error:**
 | Código      | Descripción | Causa |
 | ----------- | ----------- | ----------- |
