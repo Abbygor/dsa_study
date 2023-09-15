@@ -10,8 +10,8 @@ Space: O(1)
 """
 Analysis
 
-A[:k1]  = key1
-[k1:k2] = Unclassified
+A[:k1]  = Unclassified
+[k1:k2] = key1
 [k2:] = key2
 """
 
