@@ -8,7 +8,7 @@ Time: O(n)
 Space: O(1)
 """
 """
-Analysis
+Analysis START FORM THE BACK
 
 A[:k1]  = Unclassified
 [k1:k2] = key1
