@@ -1,0 +1,26 @@
+Template to sliding window problems:
+
+initilize response (maxSum, minSize, etc)
+initilice currentSet (could be currentSum, minWindowSize, etc)
+windowStart = 0
+for windowEnd = 0; windowEnd < len(arr); windowEnd += 1:
+    add current element (arr[windowEnd]) to the currentSet or response
+    if / while (condition):
+        calculate min / max / contains
+        remove the windowStart element (arr[windowStart]) from the currentSet
+        update the window by increasing windowStart += 1
+return min / max / contains
+
+Example:
+
+def sliding_window(arr, k):
+    maxSum = float('-inf') # initilize response
+    currentSum = 0 # define the currentSet or response
+    windowStart = 0 # window start
+    for windowEnd in range(len(arr)): # iterate from 0 to len(arr)-1
+        currentSum += arr[windowEnd] # add current value to the current set
+        if (windowEnd - windowStart == k - 1): # condition
+            maxSum = max(maxSum, currentSum) # calculate min / max / contains
+            currentSum -= arr[windowStart] # remove the windowStart element from the currentSet
+            windowStart += 1  # update the window by increasing windowStart += 1
+    return maxSum
